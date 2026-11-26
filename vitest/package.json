@@ -1,0 +1,17 @@
+{
+  "name": "petstore-vitest",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:pet": "vitest run tests/pet.test.js",
+    "test:store": "vitest run tests/store.test.js",
+    "test:user": "vitest run tests/user.test.js",
+    "test:ci": "vitest run --no-file-parallelism"
+  },
+  "devDependencies": {
+    "vitest": "^2.1.8"
+  }
+}
